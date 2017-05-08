@@ -1,0 +1,18 @@
+{
+  "homepage": "https://love2d.org/",
+  "version": "0.10.2",
+  "architecture": {
+    "64bit": {
+      "url": "https://bitbucket.org/rude/love/downloads/love-0.10.2-win64.zip",
+      "extract_dir": "love-0.10.2-win64"
+    },
+    "32bit": {
+      "url": "https://bitbucket.org/rude/love/downloads/love-0.10.2-win32.zip",
+      "extract_dir": "love-0.10.2-win32"
+    }
+  },
+  "bin": [
+    "love.exe",
+    "lovec.exe"
+  ]
+}
