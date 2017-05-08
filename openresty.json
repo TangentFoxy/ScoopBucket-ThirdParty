@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/openresty/openresty/blob/master/doc/README-win32.md#readme",
+  "version": "1.11.2.3",
+  "url": "https://openresty.org/download/openresty-1.11.2.3-win32.zip",
+  "extract_dir": "openresty-1.11.2.3-win32",
+  "bin": [
+    ["nginx.exe", "openresty"]
+  ]
+}
