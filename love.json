@@ -14,5 +14,8 @@
   "bin": [
     "love.exe",
     "lovec.exe"
+  ],
+  "shortcuts": [
+    ["love.exe", "LOVE"]
   ]
 }
