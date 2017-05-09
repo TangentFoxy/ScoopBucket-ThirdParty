@@ -19,5 +19,6 @@
   ],
   "shortcuts": [
     ["love.exe", "LOVE"]
-  ]
+  ],
+  "license": "zlib/libpng"
 }

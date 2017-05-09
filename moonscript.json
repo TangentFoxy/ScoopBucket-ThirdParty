@@ -6,5 +6,6 @@
   "bin": [
     "moon.exe",
     "moonc.exe"
-  ]
+  ],
+  "license": "MIT"
 }
