@@ -1,0 +1,13 @@
+{
+  "homepage": "http://kitty.9bis.net",
+  "version": "0.68",
+  "url": "https://www.fosshub.com/KiTTY.html/kitty_portable.exe",
+  "hash": "6c8a255a46a6805f5582fb03771a7289cb5ba79a83781f56ee5ee93d3ef489fc",
+  "bin": [
+    ["kitty_portable.exe", "kitty"]
+  ],
+  "license": "MIT",
+  "shortcuts": [
+    ["kitty_portable.exe", "KiTTY"]
+  ]
+}
