@@ -1,0 +1,9 @@
+{
+  "homepage": "http://crystalmark.info/software/CrystalDiskInfo/index-e.html",
+  "version": "7.0.5",
+  "url": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fcrystaldiskinfo%2F65980%2FCrystalDiskInfo7_0_5.zip",
+  "hash": "5FDACE2311BB73B04368653071742EBF4A0752AFFDBC4B1ED7D389B4D72B9B63",
+  "bin": [
+    ["DiskInfo32.exe", "crystaldiskinfo"]
+  ]
+}
