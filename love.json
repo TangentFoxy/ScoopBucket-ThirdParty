@@ -20,5 +20,16 @@
   "shortcuts": [
     ["love.exe", "LOVE"]
   ],
-  "license": "zlib/libpng"
+  "license": "zlib/libpng",
+  "checkver": "Download LÖVE ([\\d.]+)",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://bitbucket.org/rude/love/downloads/love-$version-win64.zip"
+      },
+      "32bit": {
+        "url": "https://bitbucket.org/rude/love/downloads/love-$version-win32.zip"
+      }
+    }
+  }
 }
