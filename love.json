@@ -18,7 +18,7 @@
     "lovec.exe"
   ],
   "shortcuts": [
-    ["love.exe", "LOVE"]
+    ["love.exe", "LÖVE"]
   ],
   "license": "zlib/libpng",
   "checkver": "Download LÖVE ([\\d.]+)",
