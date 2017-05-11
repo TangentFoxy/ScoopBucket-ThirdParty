@@ -9,5 +9,12 @@
   ],
   "depends": "lua",
   "notes": "If a package needs to be compiled, you need a version of Visual Studio installed and certain binaries in your path.",
-  "post_install": ".\\install.bat /P \"$dir\\install\" /Q /SELFCONTAINED /NOADMIN /LUA \"$dir\\..\\..\\lua\\current\""
+  "pre_install": [
+    "mkdir -p \"$dir\\install\"",
+    "echo ' ' > \"$dir\\install\\luarocks.bat\""
+  ],
+  "post_install": [
+    "rm .\\install",
+    ".\\install.bat /P \"$dir\\install\" /Q /SELFCONTAINED /NOADMIN /LUA \"$dir\\..\\..\\lua\\current\""
+  ]
 }
