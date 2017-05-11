@@ -21,6 +21,7 @@
     ["love.exe", "LÖVE"]
   ],
   "license": "zlib/libpng",
+  "notes": "For alternate versions of the LÖVE engine, consider adding this bucket: https://github.com/Guard13007/ScoopBucket-LoveVersions",
   "checkver": "Download LÖVE ([\\d.]+)",
   "autoupdate": {
     "architecture": {
