@@ -8,5 +8,13 @@
     ["nginx.exe", "openresty"]
   ],
   "notes": "Use '-p $PWD' to specify current directory when running OpenResty.\n(Alternately, see documentation by running 'scoop home openresty'.)",
-  "license": "BSD"
+  "license": "BSD",
+  "checkver": {
+    "url": "https://openresty.org/en/download.html",
+    "re": "openresty-([\\d.]+)-win32\\.zip"
+  },
+  "autoupdate": {
+    "url": "https://openresty.org/download/openresty-$version-win32.zip",
+    "extract_dir": "openresty-$version-win32"
+  }
 }
