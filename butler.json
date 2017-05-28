@@ -1,0 +1,16 @@
+{
+  "homepage": "https://itch.io/docs/butler/",
+  "version": "HEAD",
+  "architecture": {
+    "64bit": {
+      "url": "https://dl.itch.ovh/butler/windows-amd64/head/butler.exe"
+    },
+    "32bit": {
+      "url": "https://dl.itch.ovh/butler/windows-386/head/butler.exe"
+    }
+  },
+  "bin": [
+    "butler.exe"
+  ],
+  "license": "MIT"
+}
