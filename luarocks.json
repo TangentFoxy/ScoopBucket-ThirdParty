@@ -13,6 +13,6 @@
     "echo ' ' > \"$dir\\luarocks.bat\""
   ],
   "post_install": [
-    ".\\install.bat /P \"$dir\" /TREE \"$persist_dir\" /CONFIG \"$persist_dir\" /NOREG /NOADMIN /Q"
+    "\"$dir\\install.bat\" /P \"$dir\" /TREE \"$persist_dir\" /CONFIG \"$persist_dir\" /NOREG /NOADMIN /Q"
   ]
 }
