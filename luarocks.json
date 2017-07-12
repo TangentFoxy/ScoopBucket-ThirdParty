@@ -5,7 +5,7 @@
   "extract_dir": "luarocks-2.4.2-win32",
   "hash": "63ABC6F1240E0774F94BFE4150EAA5BE06979C245DB1DD5C8DDC4FB4570F7204",
   "bin": [
-    ["luarocks\\luarocks.bat", "luarocks"]
+    ["luarocks.bat", "luarocks"]
   ],
   "depends": "lua",
   "notes": "If a package needs to be compiled, you need a version of Visual Studio installed and certain binaries in your path.",
