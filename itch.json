@@ -1,0 +1,13 @@
+{
+  "homepage": "https://itch.io/app",
+  "version": "23.6.3",
+  "url": "https://itch.io/app/download/windows",
+  "hash": "C273D92AF33AD1A74E40CCBAC72322B79051E2A367A215C0875794D3A8C4F9AA",
+  "checkver": {
+    "url": "https://itch.io/app",
+    "re": "v([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://itch.io/app/download/windows"
+  }
+}
